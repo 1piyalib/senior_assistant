@@ -1,0 +1,36 @@
+# This file specifies the file extensions for untracked files in vsrpc-lib
+#
+#
+
+
+#----------------------------------------------------------------------
+# pyCharm (Python Host Development)
+#----------------------------------------------------------------------
+*.pyc
+.orig
+.idea/
+*.py___jb_tmp___
+
+#----------------------------------------------------------------------
+# Visual Studio (C# Host Development)
+#----------------------------------------------------------------------
+*.pdb
+obj/
+*.cache
+*.cd
+*.suo
+*.FileListAbsolute.txt
+*.exe.manifest
+*.exe.config
+*.vshost.exe
+*.exe
+*.user
+!dlls\
+!*.dll
+
+# Miscellaneous
+*.\#*
+*\#*\#
+*~
+*.bak
+*.patch
